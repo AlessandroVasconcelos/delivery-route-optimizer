@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Syne', sans-serif !important;
+}
+
+/* ── Header ─────────────────────────────────────────────────────────────── */
+.header {
+    background: linear-gradient(135deg, #071a0e, #0d2b1f);
+    border: 1px solid #16a34a55;
+    border-radius: 14px;
+    padding: 20px 28px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.header h1 {
+    color: #f0fdf4;
+    font-size: 1.6rem;
+    margin: 0 0 2px 0;
+}
+
+.header p {
+    color: #86efac;
+    margin: 0;
+    font-size: .85rem;
+}
+
+/* ── Card de métrica ─────────────────────────────────────────────────────── */
+.card {
+    background: #071a0e;
+    border: 1px solid #166534;
+    border-radius: 10px;
+    padding: 12px 16px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.card .lbl {
+    color: #4ade80;
+    font-size: .68rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card .val {
+    color: #f0fdf4;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+/* ── Caixa de resultado de rota ──────────────────────────────────────────── */
+.route-box {
+    background: linear-gradient(135deg, #071a0e, #0a2e16);
+    border: 1px solid #16a34a;
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin-top: 10px;
+}
+
+.route-box .rl {
+    color: #86efac;
+    font-size: .70rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+}
+
+.route-box .rp {
+    color: #f0fdf4;
+    font-size: .90rem;
+    font-weight: 500;
+    word-break: break-word;
+}
+
+.route-box .rd {
+    color: #4ade80;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 6px;
+}
+
+/* ── Banners de aviso / status ───────────────────────────────────────────── */
+.info {
+    background: #0d1a2a;
+    border: 1px solid #1e40af55;
+    border-radius: 8px;
+    padding: 9px 13px;
+    margin-bottom: 9px;
+    font-size: .82rem;
+    color: #93c5fd;
+}
+
+.warn {
+    background: #1a1000;
+    border: 1px solid #ca8a0455;
+    border-radius: 8px;
+    padding: 9px 13px;
+    margin-bottom: 9px;
+    font-size: .82rem;
+    color: #fbbf24;
+}
+
+.ok {
+    background: #071a0e;
+    border: 1px solid #16a34a55;
+    border-radius: 8px;
+    padding: 9px 13px;
+    margin-bottom: 9px;
+    font-size: .82rem;
+    color: #86efac;
+}
+
+/* ── Tag de ponto na lista ───────────────────────────────────────────────── */
+.ntag {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    background: #071a0e;
+    border: 1px solid #166534;
+    border-radius: 7px;
+    padding: 6px 10px;
+    margin: 3px 0;
+    font-size: .80rem;
+    color: #bbf7d0;
+}
+
+.dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+/* ── Sidebar ─────────────────────────────────────────────────────────────── */
+section[data-testid="stSidebar"] {
+    background: #040d07;
+    border-right: 1px solid #166534;
+}
+
+section[data-testid="stSidebar"] label {
+    color: #86efac !important;
+    font-size: .77rem;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+/* ── Legenda no rodapé da sidebar ────────────────────────────────────────── */
+.legenda {
+    background: #071a0e;
+    border: 1px solid #166534;
+    border-radius: 9px;
+    padding: 11px 13px;
+    margin-top: 6px;
+    font-size: .78rem;
+    color: #bbf7d0;
+}
